@@ -1,22 +1,6 @@
-# How to use this template:
-
-When creating a new repository just select this template, or click on the green "use template" button
-
-![new-repo-gif](https://raw.githubusercontent.com/zenitheesc/new-zenith-template/assets/novo-repo.gif)
-
-[Adding the template to a NEW repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-
-Do **NOT** check "Include All Branches"
-
-
-**Delete** this file (README.md). Choose a template and **rename** it as 'README.md'
-
-    For example: **Delete** this file and **rename** the "[TEMPLATE]README.md" to just "README.md". Wait a few minutes for the bot to process the changes 	and you're good to go 😃
-
----
-
-<h1 align="center" style="color:white; background-color:black">[PROJECT NAME]</h1>
-<h4 align="center">[insert *brief* project description]</h4>
+# Probe-RAS
+<h1 align="center" style="color:white; background-color:black">Probe-RAS</h1>
+<h4 align="center"> Telecommunication board for the Zenith's Stack architecture.</h4>
 
 <p align="center">
 	<a href="http://zenith.eesc.usp.br/">
@@ -25,48 +9,173 @@ Do **NOT** check "Include All Branches"
     <a href="https://eesc.usp.br/">
     <img src="https://img.shields.io/badge/Linked%20to-EESC--USP-black?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-RAS/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/zenitheesc/Probe-RAS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/issues">
-    <img src="https://img.shields.io/github/issues/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-RAS/issues">
+    <img src="https://img.shields.io/github/issues/zenitheesc/Probe-RAS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
-    <img src="https://img.shields.io/github/commit-activity/m/zenitheesc/new-zenith-template?style=for-the-badge">
+    <a href="https://github.com/zenitheesc/Probe-RAS/commits/main">
+    <img src="https://img.shields.io/github/commit-activity/m/zenitheesc/Probe-RAS?style=for-the-badge">
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-RAS/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/zenitheesc/Probe-RAS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
-    <img src="https://img.shields.io/github/last-commit/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-RAS/commits/main">
+    <img src="https://img.shields.io/github/last-commit/zenitheesc/Probe-RAS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/issues">
-    <img src="https://img.shields.io/github/issues-raw/zenitheesc/new-zenith-template?style=for-the-badge" />
+    <a href="https://github.com/zenitheesc/Probe-RAS/issues">
+    <img src="https://img.shields.io/github/issues-raw/zenitheesc/Probe-RAS?style=for-the-badge" />
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/pulls">
-    <img src = "https://img.shields.io/github/issues-pr-raw/zenitheesc/new-zenith-template?style=for-the-badge">
+    <a href="https://github.com/zenitheesc/Probe-RAS/pulls">
+    <img src = "https://img.shields.io/github/issues-pr-raw/zenitheesc/Probe-RAS?style=for-the-badge">
     </a>
 </p>
 
 <p align="center">
     <a href="#environment-and-tools">Environment and Tools</a> •
-    <a href="#steps-to-run-and-debug">Steps to run and debug</a> •
-    <a href="#how-to-contribute">How to contribute?</a>
+    <a href="#Z-Hub">Z-Hub</a> •
+    <a href="#Block-Diagram">Block Diagram</a> •
+    <a href="#Schematic">Schematic</a> • 
+    <a href="#Board">Board</a>
 </p>
 
 ## Environment and tools
 
-`Add list of dependencies and software needed to run this project (if possible add the versions that were used in development).`
+This board was designed using KiCad 5.1.10.
 
-## Steps to run and debug
+## Block Diagram
 
-`A simple list of steps indicating how one can run and test the project.`
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Diagram.png"/>
+</p>
 
-## How to contribute
+## Z-Hub
 
-`(optional, depends on the project) list of simple rules to help people work on the project.`
+This board contains a Stack Connector, with the 2021 Z-Hub pinout.
 
-`Examples: How to format a pull request\n How to format an issue`
+
+<table align = "center">
+  <thead>
+    <tr>
+      <th colspan=2>   Z-Hub 2021   </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GND</td>
+      <td>GND</td>
+    </tr>
+    <tr>
+      <td>GND</td>
+      <td>GND</td>
+    </tr>
+    <tr>
+      <td>BAT+</td>
+      <td>BAT+</td>
+    </tr>
+    <tr>
+      <td>SOl+</td>
+      <td>SOl-</td>
+    </tr>
+    <tr>
+      <td>5V</td>
+      <td>5V</td>
+    </tr>
+    <tr>
+      <td>3V3</td>
+      <td>3V3</td>
+    </tr>
+    <tr>
+      <td>MISO1</td>
+      <td>MOSI1</td>
+    </tr>
+    <tr>
+      <td>SCK1</td>
+      <td>CAN_H</td>
+    </tr>
+    <tr>
+      <td>SDA </td>
+      <td>CAN_L</td>
+    </tr>
+    <tr>
+      <td>SCL</td>
+      <td>CE02</td>
+    </tr>
+    <tr>
+      <td>CE11</td>
+      <td>CE12</td>
+    </tr>
+    <tr>
+      <td>SDA1</td>
+      <td>SCL1</td>
+    </tr>
+    <tr>
+      <td>SDA2</td>
+      <td>SCL2</td>
+    </tr>
+    <tr>
+      <td>TX1</td>
+      <td>RX1</td>
+    </tr>
+    <tr>
+      <td>TX2</td>
+      <td>RX2</td>
+    </tr>
+    <tr>
+      <td>DIG1</td>
+      <td>DIG6</td>
+    </tr>
+    <tr>
+      <td>ALRT1</td>
+      <td>/CHRG</td>
+    </tr>
+    <tr>
+      <td>PWM</td>
+      <td>DIG8</td>
+    </tr>
+    <tr>
+      <td>/FAULT</td>
+      <td>DIG9</td>
+    </tr>
+    <tr>
+      <td>DIG5</td>
+      <td>DIG10</td>
+    </tr>
+  </tbody>
+</table>
+
+## Schematic
+
+The design was separated in hierarchical sheets to accommodate all components in an orderly way.
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Schematic_Page_1.png"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Schematic_Page_2.png"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Schematic_Page_3.png"/>
+</p>
+
+
+## Board
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Top.png"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Bottom.png"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Perspective.png"/>
+</p>
+
 
 ---
 
