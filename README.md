@@ -149,13 +149,24 @@ This board contains a Stack Connector, with the 2021 Z-Hub pinout.
 
 The design was separated in hierarchical sheets to accommodate all components in an orderly way.
 
+The first page contains the STM32L476 with all its accompanying circuits; crystals, debugging LED, Boot solder jumper, decoupling capacitors and reset button. On the same page you find the stack connector along with a programming and debugging connector, as well as the I2C pull-ups for all I2C lines. 
+
 <p align = "center">
 <img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Schematic_Page_1.png"/>
 </p>
 
+
+The second page contains the basic peripherals, such as the CAN transceiver, the 128 Mb flash memory and the SD card.
+
+
 <p align = "center">
 <img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Schematic_Page_2.png"/>
 </p>
+
+The last page contains all the sensors implemented on this board. The I2C ones are divided in two lines, the first one being I2CA, which covers the MS5607 Barometer, the HDC-1080 Humidity sensor and the ZMOD4410 CO2 and air quality sensor. The second I2C line is I2CB, focused on the attitude of the probe, covering the MPU-6050 Accelerometer and the MMC5983 Magnetometer.
+This page also contains the Thermistor Interfaces, connected to the STM32 via SPI, but note that these components only use the MISO connection of the SPI line.
+The last component that this page contains is the MPX5071GP, which outputs pressure data via a 5V line, read via an ADC by the STM32.
+
 
 <p align = "center">
 <img src="https://github.com/zenitheesc/Probe-RAS/blob/main/Other_Files/Images/Schematic_Page_3.png"/>
