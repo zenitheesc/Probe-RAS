@@ -286,7 +286,7 @@ U 1 1 61450713
 P 1800 4950
 F 0 "16M1" V 1875 5125 50  0000 L CNN
 F 1 "Crystal_GND24" V 1750 5175 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 1800 4950 50  0001 C CNN
+F 2 "Zenith_Homemade_Components:Crystal_SMD_5032-4Pin_5.0x3.2mm_Hand_Soldering" H 1800 4950 50  0001 C CNN
 F 3 "~" H 1800 4950 50  0001 C CNN
 	1    1800 4950
 	0    1    1    0   
