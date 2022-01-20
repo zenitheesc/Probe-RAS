@@ -1,0 +1,3 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri "${KIPRJMOD}/Varella v.2.0-archive.lib")(options "")(descr ""))
+)

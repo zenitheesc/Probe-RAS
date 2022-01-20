@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+3.3V #PWR0115
+L archive:power_+3.3V #PWR0115
 U 1 1 616DD3D7
 P 4400 5025
 F 0 "#PWR0115" H 4400 4875 50  0001 C CNN
@@ -27,7 +27,7 @@ $EndComp
 Wire Wire Line
 	4400 5025 4400 5100
 $Comp
-L power:GND #PWR0119
+L archive:power_GND #PWR0119
 U 1 1 616E5BF7
 P 4400 6750
 F 0 "#PWR0119" H 4400 6500 50  0001 C CNN
@@ -40,7 +40,7 @@ $EndComp
 Wire Wire Line
 	4400 6750 4400 6700
 $Comp
-L Device:R_Pack04 RN2
+L archive:Device_R_Pack04 RN2
 U 1 1 616ED35C
 P 3350 5425
 F 0 "RN2" H 2900 5450 50  0000 L CNN
@@ -70,7 +70,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 5225 3550 5175
 $Comp
-L power:+3.3V #PWR0120
+L archive:power_+3.3V #PWR0120
 U 1 1 616ED34A
 P 3400 5100
 F 0 "#PWR0120" H 3400 4950 50  0001 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 3400 5100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04 RN1
+L archive:Device_R_Pack04 RN1
 U 1 1 616D8B8F
 P 2875 5425
 F 0 "RN1" H 3050 5475 50  0000 L CNN
@@ -113,7 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	3075 5225 3075 5175
 $Comp
-L power:+3.3V #PWR0121
+L archive:power_+3.3V #PWR0121
 U 1 1 616DBD2E
 P 2925 5100
 F 0 "#PWR0121" H 2925 4950 50  0001 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 2925 5100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C17
+L archive:Device_C_Small C17
 U 1 1 616FE025
 P 4600 5250
 F 0 "C17" H 4692 5296 50  0000 L CNN
@@ -140,7 +140,7 @@ Wire Wire Line
 	4600 5100 4600 5150
 Connection ~ 4400 5100
 $Comp
-L power:GND #PWR0122
+L archive:power_GND #PWR0122
 U 1 1 616FF326
 P 4600 5450
 F 0 "#PWR0122" H 4600 5200 50  0001 C CNN
@@ -165,7 +165,7 @@ SD_CARD_DAT1
 Text HLabel 2675 6400 0    50   Input ~ 0
 SD_CARD_CD
 $Comp
-L dk_Memory:W25Q32JVSSIQ_TR U3
+L archive:dk_Memory_W25Q32JVSSIQ_TR U3
 U 1 1 614419FF
 P 9375 3825
 F 0 "U3" H 9025 3475 50  0000 L CNN
@@ -185,7 +185,7 @@ F 12 "Active" H 9575 5025 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0123
+L archive:power_+3.3V #PWR0123
 U 1 1 6144F897
 P 9325 2925
 F 0 "#PWR0123" H 9325 2775 50  0001 C CNN
@@ -196,7 +196,7 @@ F 3 "" H 9325 2925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C19
+L archive:Device_C_Small C19
 U 1 1 6144FF8B
 P 9475 3125
 F 0 "C19" H 9567 3171 50  0000 L CNN
@@ -207,7 +207,7 @@ F 3 "~" H 9475 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L archive:power_GND #PWR0124
 U 1 1 61450343
 P 9475 3275
 F 0 "#PWR0124" H 9475 3025 50  0001 C CNN
@@ -229,7 +229,7 @@ Wire Wire Line
 	9325 2975 9325 3425
 Connection ~ 9325 2975
 $Comp
-L power:GND #PWR0125
+L archive:power_GND #PWR0125
 U 1 1 6145B8A8
 P 9325 4325
 F 0 "#PWR0125" H 9325 4075 50  0001 C CNN
@@ -242,7 +242,7 @@ $EndComp
 Wire Wire Line
 	9325 4325 9325 4225
 $Comp
-L Device:R_Small R9
+L archive:Device_R_Small R9
 U 1 1 6145D636
 P 8825 3300
 F 0 "R9" H 8766 3254 50  0000 R CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 Wire Wire Line
 	9675 3875 9750 3875
 $Comp
-L Device:C_Small C18
+L archive:Device_C_Small C18
 U 1 1 61EAA5F8
 P 4975 5250
 F 0 "C18" H 5067 5296 50  0000 L CNN
@@ -297,7 +297,7 @@ $EndComp
 Wire Wire Line
 	4400 5100 4400 5500
 $Comp
-L SamacSys_Parts:MEM2075-00-140-01-A J3
+L archive:SamacSys_Parts_MEM2075-00-140-01-A J3
 U 1 1 616CDB72
 P 3750 5800
 F 0 "J3" H 4025 5950 50  0000 C CNN
@@ -330,7 +330,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 5175 3250 5175
 $Comp
-L power:+3.3V #PWR0126
+L archive:power_+3.3V #PWR0126
 U 1 1 61595989
 P 9750 3650
 F 0 "#PWR0126" H 9750 3500 50  0001 C CNN
@@ -343,7 +343,7 @@ $EndComp
 Wire Wire Line
 	9750 3650 9750 3775
 $Comp
-L Interface_CAN_LIN:TCAN330G U2
+L archive:Interface_CAN_LIN_TCAN330G U2
 U 1 1 61FFDC40
 P 3075 2425
 F 0 "U2" H 3425 2775 50  0000 C CNN
@@ -354,7 +354,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 3075 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0127
+L archive:power_+3.3V #PWR0127
 U 1 1 620360A4
 P 3075 1425
 F 0 "#PWR0127" H 3075 1275 50  0001 C CNN
@@ -365,7 +365,7 @@ F 3 "" H 3075 1425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L archive:Device_C_Small C12
 U 1 1 620360AA
 P 3275 1625
 F 0 "C12" H 3367 1671 50  0000 L CNN
@@ -380,7 +380,7 @@ Wire Wire Line
 Wire Wire Line
 	3275 1475 3275 1525
 $Comp
-L power:GND #PWR0128
+L archive:power_GND #PWR0128
 U 1 1 620360B2
 P 3275 1825
 F 0 "#PWR0128" H 3275 1575 50  0001 C CNN
@@ -391,7 +391,7 @@ F 3 "" H 3275 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C13
+L archive:Device_C_Small C13
 U 1 1 620360B8
 P 3650 1625
 F 0 "C13" H 3742 1671 50  0000 L CNN
@@ -423,7 +423,7 @@ Wire Wire Line
 Wire Wire Line
 	3075 2900 3075 2825
 $Comp
-L power:GND #PWR0129
+L archive:power_GND #PWR0129
 U 1 1 6203C3B0
 P 3075 2900
 F 0 "#PWR0129" H 3075 2650 50  0001 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 3075 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R5
+L archive:Device_R_Small R5
 U 1 1 620499E0
 P 2275 1875
 F 0 "R5" V 2079 1875 50  0000 C CNN
@@ -445,7 +445,7 @@ F 3 "~" H 2275 1875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R6
+L archive:Device_R_Small R6
 U 1 1 620499E6
 P 2275 1975
 F 0 "R6" V 2079 1975 50  0000 C CNN
@@ -460,7 +460,7 @@ CAN_TXD
 Text HLabel 1975 1975 0    50   Input ~ 0
 CAN_RXD
 $Comp
-L Device:C_Small C11
+L archive:Device_C_Small C11
 U 1 1 620499EE
 P 2050 2150
 F 0 "C11" H 2142 2196 50  0000 L CNN
@@ -471,7 +471,7 @@ F 3 "~" H 2050 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0130
+L archive:power_GND #PWR0130
 U 1 1 620499F4
 P 2050 2275
 F 0 "#PWR0130" H 2050 2025 50  0001 C CNN
@@ -509,7 +509,7 @@ NoConn ~ 2575 2625
 Text HLabel 5350 2050 2    50   Input ~ 0
 CAN_H
 $Comp
-L Device:R_Small R7
+L archive:Device_R_Small R7
 U 1 1 62072AC4
 P 3800 2250
 F 0 "R7" H 3741 2296 50  0000 R CNN
@@ -520,7 +520,7 @@ F 3 "~" H 3800 2250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R8
+L archive:Device_R_Small R8
 U 1 1 62072ACA
 P 3800 2650
 F 0 "R8" H 3741 2696 50  0000 R CNN
@@ -544,7 +544,7 @@ Connection ~ 3800 2450
 Wire Wire Line
 	3800 2450 3800 2550
 $Comp
-L Device:C_Small C16
+L archive:Device_C_Small C16
 U 1 1 62072AD8
 P 4425 3000
 F 0 "C16" H 4517 3046 50  0000 L CNN
@@ -555,7 +555,7 @@ F 3 "~" H 4425 3000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0131
+L archive:power_GND #PWR0131
 U 1 1 62072ADE
 P 4425 3125
 F 0 "#PWR0131" H 4425 2875 50  0001 C CNN
@@ -573,7 +573,7 @@ Connection ~ 4425 2850
 Wire Wire Line
 	4075 2450 3800 2450
 $Comp
-L power:GND #PWR0132
+L archive:power_GND #PWR0132
 U 1 1 62072AE8
 P 4075 2675
 F 0 "#PWR0132" H 4075 2425 50  0001 C CNN
@@ -584,7 +584,7 @@ F 3 "" H 4075 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C14
+L archive:Device_C_Small C14
 U 1 1 62072AEE
 P 4075 2575
 F 0 "C14" H 4167 2621 50  0000 L CNN
@@ -605,7 +605,7 @@ Wire Wire Line
 Text HLabel 5350 2850 2    50   Input ~ 0
 CAN_L
 $Comp
-L power:GND #PWR0133
+L archive:power_GND #PWR0133
 U 1 1 62072B00
 P 4425 2325
 F 0 "#PWR0133" H 4425 2075 50  0001 C CNN
@@ -618,7 +618,7 @@ $EndComp
 Wire Wire Line
 	4425 2325 4425 2300
 $Comp
-L Device:C_Small C15
+L archive:Device_C_Small C15
 U 1 1 62072B07
 P 4425 2200
 F 0 "C15" H 4517 2246 50  0000 L CNN
@@ -636,7 +636,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 2050 4425 2050
 $Comp
-L dk_TVS-Diodes:PESD2CAN_215 D2
+L archive:dk_TVS-Diodes_PESD2CAN_215 D2
 U 1 1 62072B1A
 P 5075 2450
 F 0 "D2" H 5375 2625 60  0000 C CNN
@@ -670,7 +670,7 @@ Connection ~ 4725 2850
 Wire Wire Line
 	4725 2850 5350 2850
 $Comp
-L power:GND #PWR0134
+L archive:power_GND #PWR0134
 U 1 1 62072B28
 P 5450 2500
 F 0 "#PWR0134" H 5450 2250 50  0001 C CNN
