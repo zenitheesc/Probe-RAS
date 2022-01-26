@@ -1,4 +1,3 @@
-# Probe-RAS
 <h1 align="center" style="color:white; background-color:black">Probe-RAS</h1>
 <h4 align="center"> Telecommunication board for the Zenith's Stack architecture.</h4>
 
