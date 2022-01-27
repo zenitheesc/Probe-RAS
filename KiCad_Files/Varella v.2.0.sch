@@ -13,34 +13,34 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 8625 3650 2    50   Input ~ 0
+Text GLabel 8675 3650 2    50   Input ~ 0
 GND
-Text GLabel 8625 3750 2    50   Input ~ 0
+Text GLabel 8675 3750 2    50   Input ~ 0
 GND
-Text GLabel 8625 4950 2    50   Input ~ 0
+Text GLabel 8675 4950 2    50   Input ~ 0
 BUS_RX1
-Text GLabel 8625 4450 2    50   Input ~ 0
+Text GLabel 8675 4450 2    50   Input ~ 0
 CAN_L
-Text GLabel 8625 4350 2    50   Input ~ 0
+Text GLabel 8675 4350 2    50   Input ~ 0
 CAN_H
-Text GLabel 8625 4150 2    50   Input ~ 0
+Text GLabel 8675 4150 2    50   Input ~ 0
 3V3
-Text GLabel 8625 4050 2    50   Input ~ 0
+Text GLabel 8675 4050 2    50   Input ~ 0
 5V
 Wire Wire Line
-	8575 3650 8625 3650
+	8625 3650 8675 3650
 Wire Wire Line
-	8575 3750 8625 3750
+	8625 3750 8675 3750
 Wire Wire Line
-	8575 4050 8625 4050
+	8625 4050 8675 4050
 Wire Wire Line
-	8575 4150 8625 4150
+	8625 4150 8675 4150
 Wire Wire Line
-	8575 4350 8625 4350
+	8625 4350 8675 4350
 Wire Wire Line
-	8575 4450 8625 4450
+	8625 4450 8675 4450
 Wire Wire Line
-	8575 4950 8625 4950
+	8625 4950 8675 4950
 $Comp
 L archive:MCU_ST_STM32L4_STM32L476RGTx U1
 U 1 1 613E7615
@@ -830,8 +830,6 @@ Wire Wire Line
 Wire Wire Line
 	5325 6525 5375 6525
 Wire Wire Line
-	5325 6625 5375 6625
-Wire Wire Line
 	5325 5125 5375 5125
 Wire Wire Line
 	5325 5225 5375 5225
@@ -923,67 +921,63 @@ Varella v.2.0
 Text Notes 700  825  0    98   Italic 20
 STM32L476RGT6
 Wire Wire Line
-	7625 4950 7675 4950
+	7675 4950 7725 4950
 Wire Wire Line
-	7625 4550 7675 4550
+	7675 4550 7725 4550
 Wire Wire Line
-	7625 4450 7675 4450
+	7675 4450 7725 4450
 Wire Wire Line
-	7625 4150 7675 4150
+	7675 4150 7725 4150
 Wire Wire Line
-	7625 4050 7675 4050
+	7675 4050 7725 4050
 Wire Wire Line
-	7625 3750 7675 3750
+	7675 3750 7725 3750
 Wire Wire Line
-	7625 3650 7675 3650
-Text GLabel 7625 4950 0    50   Input ~ 0
+	7675 3650 7725 3650
+Text GLabel 7675 4950 0    50   Input ~ 0
 BUS_TX1
-Text GLabel 7625 4150 0    50   Input ~ 0
+Text GLabel 7675 4150 0    50   Input ~ 0
 3V3
-Text GLabel 7625 4050 0    50   Input ~ 0
+Text GLabel 7675 4050 0    50   Input ~ 0
 5V
-Text GLabel 7625 3750 0    50   Input ~ 0
+Text GLabel 7675 3750 0    50   Input ~ 0
 GND
-Text GLabel 7625 3650 0    50   Input ~ 0
+Text GLabel 7675 3650 0    50   Input ~ 0
 GND
 $Comp
 L archive:SamacSys_Parts_ESQ-120-39-G-D J1
 U 1 1 613C51C6
-P 7675 5550
-F 0 "J1" H 8125 3650 50  0000 C CNN
-F 1 "ESQ-120-39-G-D" H 8150 3475 50  0000 C CNN
-F 2 "SamacSys_Parts:ESQ-120-Y-X-D" H 8425 5650 50  0001 L CNN
-F 3 "http://suddendocs.samtec.com/prints/esq-1xx-xx-x-x-xxx-xx-x-xx-mkt.pdf" H 8425 5550 50  0001 L CNN
-F 4 "40 Position, Elevated Socket Strip, 0.100&quot; Pitch" H 8425 5450 50  0001 L CNN "Description"
-F 5 "" H 8425 5350 50  0001 L CNN "Height"
-F 6 "200-ESQ12039GD" H 8425 5250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samtec/ESQ-120-39-G-D?qs=FESYatJ8odKQoQHulXlnvA%3D%3D" H 8425 5150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "SAMTEC" H 8425 5050 50  0001 L CNN "Manufacturer_Name"
-F 9 "ESQ-120-39-G-D" H 8425 4950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    7675 5550
+P 7725 5550
+F 0 "J1" H 8175 3650 50  0000 C CNN
+F 1 "ESQ-120-39-G-D" H 8200 3475 50  0000 C CNN
+F 2 "SamacSys_Parts:ESQ-120-Y-X-D" H 8475 5650 50  0001 L CNN
+F 3 "http://suddendocs.samtec.com/prints/esq-1xx-xx-x-x-xxx-xx-x-xx-mkt.pdf" H 8475 5550 50  0001 L CNN
+F 4 "40 Position, Elevated Socket Strip, 0.100&quot; Pitch" H 8475 5450 50  0001 L CNN "Description"
+F 5 "" H 8475 5350 50  0001 L CNN "Height"
+F 6 "200-ESQ12039GD" H 8475 5250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Samtec/ESQ-120-39-G-D?qs=FESYatJ8odKQoQHulXlnvA%3D%3D" H 8475 5150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "SAMTEC" H 8475 5050 50  0001 L CNN "Manufacturer_Name"
+F 9 "ESQ-120-39-G-D" H 8475 4950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7725 5550
 	1    0    0    1   
 $EndComp
 NoConn ~ 10550 5925
-NoConn ~ 7675 3950
-NoConn ~ 7675 4250
-NoConn ~ 7675 4350
-NoConn ~ 8575 3950
-NoConn ~ 8575 4250
-NoConn ~ 8575 4550
-NoConn ~ 8575 4650
-NoConn ~ 8575 5050
-NoConn ~ 8575 5150
-NoConn ~ 8575 5250
-NoConn ~ 8575 5350
-NoConn ~ 8575 5450
-NoConn ~ 8575 5550
-NoConn ~ 7675 5550
-NoConn ~ 7675 5450
-NoConn ~ 7675 5350
-NoConn ~ 7675 5250
-NoConn ~ 7675 5150
-NoConn ~ 7675 5050
-NoConn ~ 7675 4650
+NoConn ~ 7725 3950
+NoConn ~ 7725 4250
+NoConn ~ 7725 4350
+NoConn ~ 8625 3950
+NoConn ~ 8625 4250
+NoConn ~ 8625 4550
+NoConn ~ 8625 4650
+NoConn ~ 8625 5050
+NoConn ~ 8625 5150
+NoConn ~ 8625 5350
+NoConn ~ 8625 5450
+NoConn ~ 8625 5550
+NoConn ~ 7725 5550
+NoConn ~ 7725 5150
+NoConn ~ 7725 5050
+NoConn ~ 7725 4650
 Text GLabel 10100 4575 0    50   Input ~ 0
 CAN_TX
 Wire Wire Line
@@ -1285,15 +1279,15 @@ Text GLabel 5375 4225 2    50   Input ~ 0
 MAX_2_NSS
 Text GLabel 5375 4425 2    50   Input ~ 0
 MAX_3_NSS
-Text GLabel 7625 4550 0    50   Input ~ 0
+Text GLabel 7675 4550 0    50   Input ~ 0
 SCL_INA
-Text GLabel 7625 4450 0    50   Input ~ 0
+Text GLabel 7675 4450 0    50   Input ~ 0
 SDA_INA
-NoConn ~ 7675 4850
-NoConn ~ 8575 4850
-Text GLabel 8575 4750 2    50   Input ~ 0
+NoConn ~ 7725 4850
+NoConn ~ 8625 4850
+Text GLabel 8625 4750 2    50   Input ~ 0
 SCL_A
-Text GLabel 7675 4750 0    50   Input ~ 0
+Text GLabel 7725 4750 0    50   Input ~ 0
 SDA_A
 Text GLabel 3875 5125 0    50   Input ~ 0
 SCL_A
@@ -1313,15 +1307,11 @@ Text GLabel 5375 4125 2    50   Input ~ 0
 MMC_INT
 Text GLabel 5375 5125 2    50   Input ~ 0
 MPX_VOUT
-NoConn ~ 5375 4325
-NoConn ~ 5375 4925
 NoConn ~ 5375 5225
-NoConn ~ 5375 5525
-NoConn ~ 5375 5725
 NoConn ~ 3875 5625
 NoConn ~ 3875 5825
-NoConn ~ 8575 3850
-NoConn ~ 7675 3850
+NoConn ~ 8625 3850
+NoConn ~ 7725 3850
 Text Notes 7075 6425 0    50   ~ 0
 MAX17205 I2C Address: 0x6C & 0x16\n(Connected to I2C_A on the stack bus )
 Text GLabel 10100 2600 0    50   Input ~ 0
@@ -1334,9 +1324,9 @@ Wire Wire Line
 	10100 2700 10200 2700
 Text GLabel 3875 5725 0    50   Input ~ 0
 ZMOD_RST
-Text GLabel 5375 6625 2    50   Input ~ 0
+Text GLabel 5375 6525 2    50   Input ~ 0
 ZMOD_INT
-NoConn ~ 5375 6525
+NoConn ~ 5325 6625
 NoConn ~ 3875 5525
 $Bitmap
 Pos 9100 6850
@@ -1592,4 +1582,20 @@ B0 D1 0F 03 1F 22 9D 18 B2 10 E9 34 F5 11 A4 A3 70 66 CB AE A9 D9 F5 36 E9 1C BB
 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 7725 5250 0    50   Input ~ 0
+EPS_ALRT1
+Text GLabel 7725 5350 0    50   Input ~ 0
+EPS_THERM_PWM
+Text GLabel 8625 5250 2    50   Input ~ 0
+EPS_CHRG
+Text GLabel 7725 5450 0    50   Input ~ 0
+EPS_FAULT
+Text GLabel 5375 5725 2    50   Input ~ 0
+EPS_CHRG
+Text GLabel 5375 5525 2    50   Input ~ 0
+EPS_THERM_PWM
+Text GLabel 5375 4925 2    50   Input ~ 0
+EPS_FAULT
+Text GLabel 5375 4325 2    50   Input ~ 0
+EPS_ALRT1
 $EndSCHEMATC
