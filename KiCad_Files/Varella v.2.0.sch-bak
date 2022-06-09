@@ -1566,7 +1566,7 @@ RTC Battery
 Text Notes 5800 5675 0    98   Italic 20
 Debug LED\n
 Text Notes 4050 725  0    98   Italic 20
-Basic STM32 Circuits
+STM32 Basic Circuits
 Text Notes 5175 2550 0    79   Italic 16
 Crystals
 Text Notes 4750 1050 0    79   Italic 16
